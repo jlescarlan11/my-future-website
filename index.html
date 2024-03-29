@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Lester Escarlan</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <script
+      src="https://kit.fontawesome.com/754c0405a0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header id="desktop-nav">
+      <div class="logo">Lest.</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <header id="hamburger-nav">
+      <div class="logo">Lest.</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#portfolio" onclick="toggleMenu()">Portfolio</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </header>
+
+    <section id="profile">
+      <div class="profile__content">
+        <div class="section__pic-container">
+          <img
+            src="./images/user.png"
+            alt="Lester Escarlan's Profile Picture"
+          />
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">Hey, I'm</p>
+          <h1 class="title">John Lester Escarlan</h1>
+          <p class="section__text__p2">2nd-Yr BS-Math Undergraduate</p>
+        </div>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="social-icons">
+          <a href="https://www.facebook.com/johnlester.escarlan11/"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://github.com/jlescarlan11"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/john-lester-escarlan-3a23072a6/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./images/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="tab-titles">
+          <p class="tab-links active-link" data-tab="skills">Skills</p>
+          <p class="tab-links" data-tab="experience">Experience</p>
+          <p class="tab-links" data-tab="education">Education</p>
+        </div>
+
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Python</span><br />Pandas, NumPy</li>
+            <li><span>SQL</span><br /></li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>None</span><br /></li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="education">
+          <ul>
+            <li>
+              <span>2022 - Current</span><br />University of the Philippines
+            </li>
+            <li>
+              <span>2020 - 2022</span><br />South East Asia Institute of Trade
+              and Technology
+            </li>
+            <li><span>2016 - 2020</span><br />North Fairview High School</li>
+          </ul>
+        </div>
+      </div>
+      <a href="./#project" class="arrow"
+        ><i class="fa-solid fa-arrow-down"></i
+      ></a>
+    </section>
+
+    <section id="project">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="paragraph">
+        <p>will add on this one in the future.</p>
+      </div>
+      <a href="./#contact" class="arrow"
+        ><i class="fa-solid fa-arrow-down"></i
+      ></a>
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="note-container">
+        <p>
+          Feel free to contact me for any question. For more info, reach me on
+          <a href="https://www.linkedin.com/in/john-lester-escarlan-3a23072a6/"
+            >LinkedIn</a
+          >. If you want to follow my work, reach me on
+          <a href="https://www.facebook.com/johnlester.escarlan11/">Facebook</a
+          >. Otherwise, send me an email at
+          <a href="mailto:jlescarlan11@gmail.com">jlescarlan11@gmail.com</a>.
+        </p>
+      </div>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <p>
+            <i class="fa-solid fa-square-envelope"></i>
+            <a href="mailto:jlescarlan11@gmail.com">Email</a>
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <p>
+            <i class="fa-brands fa-facebook"></i>
+            <a href="https://www.facebook.com/johnlester.escarlan11/"
+              >Facebook</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <p>
+            <i class="fa-brands fa-linkedin"></i>
+            <a
+              href="https://www.linkedin.com/in/john-lester-escarlan-3a23072a6/"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <header>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </header>
+      <p>Copyright &#169; 2023 Lester Escarlan. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
