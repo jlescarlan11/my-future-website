@@ -1,4 +1,4 @@
-@media screen and (max-width: 100px) {
+@media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
     margin-bottom: 6rem;
@@ -31,7 +31,8 @@
   section,
   .section-container {
     height: fit-content;
-    margin-top: 0;
+    margin: 0;
+    justify-content: space-evenly;
   }
 
   section {
@@ -43,21 +44,18 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  #contact,
+@media screen and (max-width: 770px) {
+  #profile {
+    height: 40vh;
+  }
+
+  #project,
+  #contact {
+    height: 50vh;
+  }
+
   footer {
     height: 60vh;
-  }
-
-  .section__pic-container img {
-    height: 250px;
-    width: 250px;
-    margin: auto 0;
-    margin-bottom: 1rem;
-  }
-
-  #profile {
-    height: 83vh;
   }
 
   footer,
@@ -68,6 +66,12 @@
 
   header {
     margin-top: 1rem;
+  }
+
+  .section-container {
+    height: fit-content;
+    justify-content: space-evenly;
+    margin: 0;
   }
 
   .contact-info-container {
@@ -96,7 +100,7 @@
   }
 
   .tab-contents ul li span {
-    font-size: 0.75rem;
+    font-size: 1rem;
     font-weight: 500;
     position: absolute;
     color: black;
@@ -109,5 +113,38 @@
     font-weight: 600;
     cursor: pointer;
     position: relative;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .section__pic-container img {
+    height: 250px;
+    width: 250px;
+    margin: auto 0;
+    margin-bottom: 1rem;
+  }
+
+  #profile {
+    height: 60vh;
+  }
+
+  .tab-contents ul li span,
+  .tab-contents ul li {
+    font-size: 0.75rem;
+  }
+
+  .tab-titles {
+    margin-left: -10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .section-container {
+    height: fit-content;
+    margin: 0;
+  }
+
+  .tab-titles {
+    margin-left: -40px;
   }
 }
