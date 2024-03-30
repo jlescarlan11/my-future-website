@@ -49,6 +49,13 @@
     height: 60vh;
   }
 
+  .section__pic-container img {
+    height: 250px;
+    width: 250px;
+    margin: auto 0;
+    margin-bottom: 1rem;
+  }
+
   #profile {
     height: 83vh;
   }
@@ -57,6 +64,10 @@
   header {
     height: fit-content;
     margin-bottom: 2rem;
+  }
+
+  header {
+    margin-top: 1rem;
   }
 
   .contact-info-container {
@@ -73,32 +84,6 @@
   }
 
   .section__text__p2 {
-    font-size: 1.25rem;
-  }
-
-  .title {
-    font-size: 2rem;
-  }
-
-  .note-container {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  #profile,
-  .section-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .section__pic-container img {
-    height: 200px;
-    width: 200px;
-    margin: auto;
-  }
-
-  .section__text__p2 {
     font-size: 1rem;
   }
 
@@ -106,21 +91,23 @@
     font-size: 1.5rem;
   }
 
-  .btn {
-    padding: 0.5rem;
-    width: 6rem;
-  }
-
-  .about-pic {
-    height: 200px;
-    width: 200px;
-  }
-
-  .tab-contents {
-    width: auto;
-  }
-
   .note-container {
-    width: 90%;
+    width: 100%;
+  }
+
+  .tab-contents ul li span {
+    font-size: 0.75rem;
+    font-weight: 500;
+    position: absolute;
+    color: black;
+  }
+
+  .tab-links {
+    /* gap: 2rem; */
+    margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
   }
 }
