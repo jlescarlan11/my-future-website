@@ -1,6 +1,6 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    margin-bottom: 6rem;
+    margin-bottom: 2rem;
   }
   .about-containers {
     flex-wrap: wrap;
@@ -11,8 +11,14 @@
   #desktop-nav {
     display: none;
   }
+
+  header {
+    justify-content: space-around;
+  }
+
   #hamburger-nav {
     display: flex;
+    padding-bottom: 2rem;
   }
 
   .about-pic {
@@ -23,23 +29,11 @@
     display: flex;
   }
 
-  .arrow {
-    display: none;
-  }
-
   section,
   .section-container {
     height: fit-content;
-    margin: 0;
-    justify-content: space-evenly;
-  }
-
-  section {
-    margin: 0 5%;
-  }
-
-  .about-containers {
-    margin-top: 0;
+    margin: auto 0;
+    justify-content: space-aroud;
   }
 }
 
@@ -54,31 +48,8 @@
     margin-top: 1rem;
   }
 
-  .section-container {
-    height: fit-content;
-    justify-content: space-evenly;
-    margin: 0;
-  }
-
   .contact-info-container {
     margin: 0;
-  }
-
-  .contact-info-container p,
-  .nav-links li a {
-    font-size: 1rem;
-  }
-
-  .logo {
-    font-size: 1.5rem;
-  }
-
-  .section__text__p2 {
-    font-size: 1rem;
-  }
-
-  .title {
-    font-size: 1.5rem;
   }
 
   .note-container {
@@ -91,23 +62,36 @@
     position: absolute;
     color: black;
   }
-
-  .tab-links {
-    /* gap: 2rem; */
-    margin-bottom: 20px;
-    font-size: 1rem;
-    font-weight: 600;
-    cursor: pointer;
-    position: relative;
-  }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
   .section__pic-container img {
     height: 250px;
     width: 250px;
     margin: auto 0;
     margin-bottom: 1rem;
+  }
+
+  .tab-contents {
+    margin-right: 1.5rem;
+  }
+
+  #hamburger-nav {
+    margin: auto 0;
+    padding: auto 0;
+  }
+
+  .logo {
+    font-size: 1.75rem;
+  }
+
+  .title {
+    font-size: 1.75rem;
+  }
+
+  .section__text__p1,
+  .section__text__p2 {
+    font-size: 1rem;
   }
 
   .tab-contents ul li span,
@@ -117,6 +101,23 @@
 
   .tab-titles {
     margin-left: -10px;
+  }
+
+  .nav-links {
+    font-size: 1rem;
+  }
+
+  footer {
+    font-size: 1rem;
+  }
+
+  .note-container {
+    width: 80%;
+    font-size: 1rem;
+  }
+
+  .contact-info-upper-container p {
+    font-size: 1rem;
   }
 }
 
