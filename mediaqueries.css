@@ -79,8 +79,8 @@
   #hamburger-nav,
   #profile {
     margin: auto 0;
-    padding: auto 0;
-    margin-bottom: 2.5rem;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
   }
 
   .logo {
