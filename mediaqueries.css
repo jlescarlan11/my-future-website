@@ -46,7 +46,7 @@
 
 @media screen and (max-width: 770px) {
   #profile {
-    height: 40vh;
+    height: 60vh;
   }
 
   #project,
@@ -125,7 +125,7 @@
   }
 
   #profile {
-    height: 60vh;
+    height: 70vh;
   }
 
   .tab-contents ul li span,
