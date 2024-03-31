@@ -68,6 +68,10 @@
     margin-bottom: 1rem;
   }
 
+  .menu-links a {
+    font-size: 1rem;
+  }
+
   .tab-contents {
     margin-right: 1.5rem;
   }
