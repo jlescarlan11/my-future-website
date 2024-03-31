@@ -336,7 +336,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 50vh;
+  height: 10rem;
 }
 
 /* CONTACT */
@@ -345,7 +345,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
+  height: 20rem;
 }
 
 .note-container {
