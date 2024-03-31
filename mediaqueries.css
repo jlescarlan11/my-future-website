@@ -1,6 +1,5 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
     margin-bottom: 6rem;
   }
   .about-containers {
@@ -45,19 +44,6 @@
 }
 
 @media screen and (max-width: 770px) {
-  #profile {
-    height: 60vh;
-  }
-
-  #project,
-  #contact {
-    height: 50vh;
-  }
-
-  footer {
-    height: 60vh;
-  }
-
   footer,
   header {
     height: fit-content;
@@ -122,10 +108,6 @@
     width: 250px;
     margin: auto 0;
     margin-bottom: 1rem;
-  }
-
-  #profile {
-    height: 70vh;
   }
 
   .tab-contents ul li span,
